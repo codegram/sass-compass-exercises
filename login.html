@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Ninjarest</title>
+    <link href="./stylesheets/screen.css" media="screen" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="./stylesheets/print.css" media="print" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+      <link href="stylesheets/ie.css" media="screen" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="./javascripts/jquery.masonry.min.js"></script>
+    <script src="./javascripts/ninjarest.js"></script>
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  </head>
+  <body>
+    <header id="header">
+  <h1><a href="/">Ninjarest</a></h1>
+  <div id="search_box">
+    <form>
+      <input type="text" placeholder="Place your search"/>
+      <input type="submit" value="Search" />
+    </form>
+  </div>
+  <aside id="menu">
+    <ul>
+      <li>
+        <span href='#'>About</span>
+        <ul>
+          <li><a href='#'>Help</a></li>
+          <li><a href='#'>Throw button</a></li>
+          <li><a href='#'>Copyright</a></li>
+          <li><a href='#'>Careers</a></li>
+          <li><a href='#'>Team</a></li>
+          <li><a href='#'>Blog</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href='#'>Your profile</a>
+      </li>
+    </ul>
+  </aside>
+</header>
+
+    <aside id="invite">
+  <strong>Ninjarest is an online ninja board</strong>
+  <em>Hide and throw things you love</em>
+  <div class="actions">
+    <a class="signup" href="signup.html">Create new ninja</a>
+    <a class="login" href="login.html">Login</a>
+  </div>
+</aside>
+
+    <section id="content">
+      <div id="login">
+  <form action="#">
+    <div class="field email">
+      <label for="ninja_email">Email</label>
+      <input type="email" name="email" id="ninja_email" placeholder="shinobi@nomo.no"/>
+    </div>
+    <div class="field password">
+      <label for="ninja_password">Password</label>
+      <input type="password" name="password_confirmation" id="ninja_password" />
+    </div>
+    <div class="buttons">
+      <input type="submit" value="Login"/>
+    </div>
+  </form>
+</div>
+
+    </section>
+  </body>
+</html>

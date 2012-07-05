@@ -1,9 +1,369 @@
 <html>
   <head>
-    <title>SASS & Compass</title>
-    <link href="stylesheets/screen.css" rel="stylesheet" type="text/css" />
+    <title>Ninjarest</title>
+    <link href="./stylesheets/screen.css" media="screen" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="./stylesheets/print.css" media="print" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+      <link href="stylesheets/ie.css" media="screen" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="./javascripts/jquery.masonry.min.js"></script>
+    <script src="./javascripts/ninjarest.js"></script>
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
   </head>
   <body>
-    <h1>Sóc un ninja!</h1>
+    <header id="header">
+  <h1><a href="/">Ninjarest</a></h1>
+  <div id="search_box">
+    <form>
+      <input type="text" placeholder="Place your search"/>
+      <input type="submit" value="Search" />
+    </form>
+  </div>
+  <aside id="menu">
+    <ul>
+      <li>
+        <span href='#'>About</span>
+        <ul>
+          <li><a href='#'>Help</a></li>
+          <li><a href='#'>Throw button</a></li>
+          <li><a href='#'>Copyright</a></li>
+          <li><a href='#'>Careers</a></li>
+          <li><a href='#'>Team</a></li>
+          <li><a href='#'>Blog</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href='#'>Your profile</a>
+      </li>
+    </ul>
+  </aside>
+</header>
+
+    <aside id="invite">
+  <strong>Ninjarest is an online ninja board</strong>
+  <em>Hide and throw things you love</em>
+  <div class="actions">
+    <a class="signup" href="signup.html">Create new ninja</a>
+    <a class="login" href="login.html">Login</a>
+  </div>
+</aside>
+
+    <section id="content">
+      <section id="shurikens">
+  
+    <article class='shuriken'>
+      <h2>Bamboo Flute</h2>
+      <figure class="image">
+        <img src="./images/shurikens/bamboo_flute.jpg" />
+      </figure>
+      <section class="description">
+        <p>For Feng Shui purposes, Bamboo Flutes are generally hung by red cord with red tassels, with the aperture (the hole blown in when playing) tilted slightly upwards. (As in the pictures at the top of this page).</p>
+
+<p>Your flute is the ultimate strengthening cure, and represents the qualities of power, safety, peace, and endurance.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Final Fight</h2>
+      <figure class="image">
+        <img src="./images/shurikens/final_fight.png" />
+      </figure>
+      <section class="description">
+        <p>The game was originally conceived as a sequel to the original Street Fighter titled Street Fighter &#39;89, but the title was changed before its release when the game&#39;s genre changed from a one-on-one competitive fighting game to a side-scrolling action game similar to Double Dragon or Golden Axe[citation needed]. Final Fight was ported to various platforms, such as the Super NES and Mega-CD, since its original coin-op release.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Full Tang Ninja Sword</h2>
+      <figure class="image">
+        <img src="./images/shurikens/full_tang_ninja_sword.jpg" />
+      </figure>
+      <section class="description">
+        <p>Full Tang Ninja Sword This Hot Full Tang sword features 1/4&quot; of pure steel stretching through its entire body. The 29&quot; blade is razor sharp and ready for action! The paki wood handle provides your palm with a comfortable, tight grip. This masterful weapon slides smoothly into a real leather scabbard. The versatility of this full tang sword offers a true ninja warrior with limitless capabilities.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Megaman</h2>
+      <figure class="image">
+        <img src="./images/shurikens/megaman.jpg" />
+      </figure>
+      <section class="description">
+        <p>The classic Mega Man series consists of eleven main titles including the original game, as well as all Game Boy and PC titles featuring the original design of Mega Man. The classic series is considered to be the origin of the story, with Mega Man being the first installment, and continuing with ten direct sequels. Chronologically after Mega Man 8 comes Mega Man &amp; Bass and then continues with Mega Man 9 and Mega Man 10.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Mortal Kombat</h2>
+      <figure class="image">
+        <img src="./images/shurikens/mortal_kombat.png" />
+      </figure>
+      <section class="description">
+        <p>Mortal Kombat, commonly abbreviated MK, is a science fantasy series of fighting games created by Ed Boon and John Tobias. The first four renditions and their updates were developed by Midway Games and initially released on arcade machines. The arcade titles were later picked up by Acclaim Entertainment for the home console conversions. Beginning with Mortal Kombat: Deadly Alliance, Midway Games exclusively created home versions of Mortal Kombat up until Mortal Kombat vs. DC Universe. Following Midway&#39;s bankruptcy, the franchise was picked up by Warner Bros. in July 2009 and became a part of the Warner Bros. Interactive Entertainment Branch.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Ninja Foot Spikes</h2>
+      <figure class="image">
+        <img src="./images/shurikens/ninja_foot_spikes.jpeg" />
+      </figure>
+      <section class="description">
+        <p>These Ninja Foot Spikes are made of Black Steel construction with welded, sharpened spikes. Climb any tree or wooden fortress.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Ninja Gaiden</h2>
+      <figure class="image">
+        <img src="./images/shurikens/ninja_gaiden.jpg" />
+      </figure>
+      <section class="description">
+        <p>The first Ninja Gaiden for Famicom/NES was released in Japan on December 9, 1988, in the United States in March 1989, and in Europe on August 15, 1991. A ninja named Ryu Hayabusa finds a letter by his recently missing father, Ken, telling him to go to America and meet with an archaeologist Dr. Smith. Dr. Smith tells Ryu that two statues hidden by Ryu&#39;s father and the doctor have the power to end the world - if united. Ryu ends up in South America and battles Jaquio, an evil cult leader bent on reviving the ancient demon called &quot;Jashin&quot; and responsible for the attack on Ken Hayabusa.</p>
+
+<p>The game introduced many of the series&#39; staples, including the cinematic cutscenes, the boomerang-like Windmill Shuriken and the magical techniques called Ninja Arts (or Ninpo). Like all games in the series, it is noted for its difficulty, particularly the infamous Stage 6-2. To use the ninja arts, users had to collect power-ups. Each art used up a certain number of power-ups.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Ninja Gaiden Trilogy</h2>
+      <figure class="image">
+        <img src="./images/shurikens/ninja_gaiden_trilogy.png" />
+      </figure>
+      <section class="description">
+        <p>Ninja Gaiden Trilogy is a 1995 SNES collection featuring all three games. Few improvements were made, but passwords were included and the cinematic sequences were improved. The graphics were retouched and the soundtrack was updated. The third game was also made more playable by reverting the difficulty level to that of the Japanese version, with infinite continues and more reasonable damage from enemy attacks. Unfortunately, the ports suffered from slowdown, unresponsive controls and no closing credits. Some graphical changes were made that removed parallax scrolling from the backgrounds of the levels. Other graphical changes were made to comply with Nintendo&#39;s &quot;Family Friendly&quot; censorship policy at the time (i.e. a pool of blood changed from red to green, and the removal of pentagrams). Fans also complained about the omission of some music tracks (including removing two pieces of music from Ninja Gaiden III and replacing the use of the stage 1-1 music in the Ninja Gaiden II pursuit cutscenes with a repeating footstep sound). Conversely, a degree of censorship was actually removed from certain parts of the script (for example, Jaquio&#39;s &quot;Argh! He&#39;s awake&quot; is replaced with &quot;Damn, he&#39;s awake.&quot;), though the retooled scripts also featured new typographical errors not found in the original translations.[citation needed] Despite these shortcomings, Ninja Gaiden Trilogy is a bit of a collector&#39;s item and sells for nearly $200 if still sealed.[5] Ninja Gaiden Trilogy was included as a bonus unlockable in Ninja Gaiden for Xbox.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Ninja Hand Fighter Claw</h2>
+      <figure class="image">
+        <img src="./images/shurikens/ninja_hand_fighter_claw.jpg" />
+      </figure>
+      <section class="description">
+        <p>This fierce hand claw is one mean machine! Constructed with 3 piercing spikes at the knuckles edge and packing 2 removable hidden stainless steel spikes. The impact resistant hand shield offers a Velcro closure underneath that fits any size hand.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Ninja Kid</h2>
+      <figure class="image">
+        <img src="./images/shurikens/ninja_kid.png" />
+      </figure>
+      <section class="description">
+        <p>Ninja-Kid features three upward scrolling levels that repeat and become more difficult.[1] The objective is to defeat the enemies on each screen and advance to the next screen. The player can attacks with shurikens and can jump on enemies&#39; heads to stun them. Occasionally, an orb will appear and if the player collects three, a bonus level will be unlocked.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Professional Ninja Uniform</h2>
+      <figure class="image">
+        <img src="./images/shurikens/professional_ninja_uniform.jpg" />
+      </figure>
+      <section class="description">
+        <p>The Ultimate Professional Ninja Uniform is for students wanting a serious Ninjitsu Uniform.</p>
+
+<p>This Ultimate Ninja Uniform is custom made by Ninjas for Ninjas. Because of this, it comes with every possible option available for the Ninja Uniform. Comes with: Full Ninja Uniform with mask, Deluxe High Top Ninja Tabi Boots, Ninja Gauntlets, Ninja Leg Wraps, and Tabi Socks.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Samurai Shodown</h2>
+      <figure class="image">
+        <img src="./images/shurikens/samurai_shodown.png" />
+      </figure>
+      <section class="description">
+        <p>The stories in the series take place in 18th-century Japan, during the Sakoku or seclusion period of Japan, (the first four games run across 1788 and 1789) with great artistic license so that foreign-born characters (including some from places that didn’t exist as such in 1788) and fictional monsters can also be part of the story. The plot of each game is quite different, but they circle a central group of characters and a region in Japan.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Shadow Of The Ninja</h2>
+      <figure class="image">
+        <img src="./images/shurikens/shadow_of_the_ninja.PNG" />
+      </figure>
+      <section class="description">
+        <p>hadow of the Ninja can be played by up to two players simultaneously, with one player controlling Hayate (the male ninja) and the other as Kaede (the female ninja). In either mode, the player can decide which character they want to control before the game actually begins. There are no actual performance differences between either character,[8] but they are actually looking almost completely different looking in-game (and in other versions&#39; manga-style covers) than as shown in the US cover art: Hayate is blonde and Kaede is green-haired, wearing a miniskirt and wielding a sword and a kunai.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Shinobi</h2>
+      <figure class="image">
+        <img src="./images/shurikens/shinobi.jpg" />
+      </figure>
+      <section class="description">
+        <p>Shinobi is a series of video games published by Sega and developed primarily by Overworks. The name Shinobi is used as a code-name throughout the series to hide the true identity of its bearer. It has been adopted by various characters, most prominently Joe Musashi, the protagonist of the original series of games (Shinobi to Shinobi III).</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Teenage Mutant Ninja Turtles</h2>
+      <figure class="image">
+        <img src="./images/shurikens/teenage_mutant_ninja_turtles.png" />
+      </figure>
+      <section class="description">
+        <p>ge Mutant Ninja Turtles, released as Teenage Mutant Hero Turtles in Europe, is a side-scrolling beat-&#39;em-up released by Konami as a coin-operated video game in 1989. It is based on the first Teenage Mutant Ninja Turtles animated series which began airing in the winter of 1987. The original coin-operated game was distributed to the arcades in two variants: a standard 2-player version that allowed either player to choose their character and a deluxe 4-player version with each player controlling a different character. Home versions of the game were released for various platforms.&#39;</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>The Last Blade</h2>
+      <figure class="image">
+        <img src="./images/shurikens/the_last_blade.jpg" />
+      </figure>
+      <section class="description">
+        <p>The Last Blade (Bakumatsu Roman: Gekka no Kenshi, &quot;Romance of the Bakumatsu: The Swordsman of Moonlight&quot;), is a fighting game series created by SNK for the Neo Geo system. The Korean version of the game is known as &quot;The Last Soldier&quot;. The Last Blade and its sequel are widely considered to be two of the most accomplished games available for the Neo Geo system, with fan opinion divided as to which is the better installment.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>The Legend Of Kage</h2>
+      <figure class="image">
+        <img src="./images/shurikens/the_legend_of_kage.jpg" />
+      </figure>
+      <section class="description">
+        <p>The player takes role of the young Iga ninja named Kage (&quot;Shadow&quot;) on the mission to rescue Princess Kiri (Kirihime) from the villains Yoshi (Yoshiro Yukikusa) and Yuki (Yukinosuke Kiri). Kage must fight his way through the forest, along the secret passageway, up the fortress wall and through the castle, rescuing her two times (three in the NES version) in order to win the game. Each time the princess is rescued, the seasons change in the game.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Throwing Knives</h2>
+      <figure class="image">
+        <img src="./images/shurikens/throwing_knives.jpg" />
+      </figure>
+      <section class="description">
+        <p>Ninja Throwing Knives are a deluxe throwing knife set. Each knife features a cord wrapped handle to give you a better grip for a better throw. Measures 6.5&quot; overall and comes with a carrying sheath.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+    <article class='shuriken' draggable="true">
+      <h2>Virtua Fighter</h2>
+      <figure class="image">
+        <img src="./images/shurikens/virtua_fighter.png" />
+      </figure>
+      <section class="description">
+        <p>The basic gameplay involves two combatants needing to win two of three rounds, with each round being 30 seconds long or more. If a character is knocked out (or falls out) of the ring, the opponent wins the round. A fourth round is necessary if a double knockout (both players knocking each other out at the same time) occurred in a previous round and the match is tied one round each. In this fourth round, players fight on a small stage wherein one hit equals victory. Its control scheme is simple, using only a control stick and 3 buttons (Punch, Kick, Guard); however, through various timings, positions, and button combinations, players unlocked a bevy of moves for each character. Traditionally, in the single-player mode, the player runs a gauntlet of characters in the game (which may include one&#39;s doppelgänger) all the way to the final boss.</p>
+
+      </section>
+      <ul class="actions">
+        <li class='throw'><a title="Throw" href="#"><span>Throw</span></a></li>
+        <li class='love'><a title="Love" href="#"><span>Love</span></a></li>
+        <li class='destroy'><a title="Destroy" href="#"><span>Destroy</span></a></li>
+      </ul>
+    </article>
+  
+</section>
+
+    </section>
   </body>
 </html>
