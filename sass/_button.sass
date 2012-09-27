@@ -1,0 +1,9 @@
+@import compass/css3/inline-block
+@import compass/css3/images
+
+@mixin button($color: $main-color)
+  +inline-block
+  background-color: $color
+  &:hover
+    color: #fff
+  +background-image(linear-gradient($color, lighten($color, 10%)))
